@@ -724,3 +724,39 @@ footer h6 {
    transition-duration: 1s;}
 	
 }
+
+.m1{
+    color:blue !important;
+    font-weight:bold !important;
+}
+.menu_t1+   {
+ -webkit-animation: change-color 4s ease-in 1s infinite normal ;
+ animation: change-color 4s ease-in 0s infinite normal ;
+}
+
+@-webkit-keyframes change-color {
+  50%{
+	color#000000;
+  }
+  80%{
+	color#FF7D00;
+  }
+  95%{
+	color:#CB5432;
+  }
+  100%{
+	color:#000000;
+  }
+}
+
+@keyframes change-color {
+  50%{
+	color:#000000;
+  }
+  80%{
+	color#FF7D00;
+  } 
+  95%{
+	color:#CB5432;
+
+}
