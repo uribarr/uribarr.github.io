@@ -724,7 +724,7 @@ footer h6 {
    transition-duration: 1s;}
 	
 }
-
+/*UB
 .m1{
     color:blue !important;
     font-weight:bold !important;
@@ -758,5 +758,9 @@ footer h6 {
   } 
   95%{
 	color:#CB5432;
-
+  }
+  100%{
+	color:#000000;
+  }
 }
+    */
